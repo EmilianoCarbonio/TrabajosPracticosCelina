@@ -8,12 +8,12 @@ public class App {
 
         System.out.println("ingresar primer valor a sumar");
 
-        int num1 = valor.nextInt();
+        float num1 = valor.nextFloat();
 
         System.out.println("ingresar segundo valor a sumar");
-        int num2 = valor.nextInt();
+        float num2 = valor.nextFloat();
 
-        int resultado = num1 + num2;
+        float resultado = num1 + num2;
         System.out.println("el resultado es: " + resultado);
      valor.close();
     }

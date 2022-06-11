@@ -26,9 +26,9 @@ public class App {
 
         } while (contador <= 10);
       System.out.println("la suma de todos los numeros es " + suma);
-      
       System.out.println("los numeros positivos ingresados son " + positivo);
       System.out.println("los numeros negativos ingrresados son " + negativo);
+      
     id.close(); 
     }
 }

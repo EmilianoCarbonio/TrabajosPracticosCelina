@@ -21,10 +21,6 @@ public class App {
         }    
         
 
-        
-
-        
-
         lm.close();
     }
 }
